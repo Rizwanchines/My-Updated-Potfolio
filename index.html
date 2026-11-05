@@ -1,0 +1,839 @@
+<!DOCTYPE html>
+<html lang="en" class="scroll-smooth">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description" content="Rizwan (Rizwan Baloch) — Full Stack & AI-Integrated Web Developer based in Karachi, Sindh, Pakistan. Portfolio showcasing projects, technical skills, and education." />
+  <title>Rizwan | Full Stack &amp; AI-Integrated Web Developer</title>
+
+  <!-- Google Fonts: Plus Jakarta Sans, Inter & JetBrains Mono -->
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=JetBrains+Mono:wght@400;500;600&family=Plus+Jakarta+Sans:wght@600;700;800&display=swap" rel="stylesheet" />
+
+  <!-- Stylesheet -->
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <!-- Ambient Background Glows & Grid -->
+  <div class="bg-grid" aria-hidden="true"></div>
+  <div class="ambient-glow glow-1" aria-hidden="true"></div>
+  <div class="ambient-glow glow-2" aria-hidden="true"></div>
+
+  <!-- Scroll Progress Bar -->
+  <div class="scroll-progress" id="scrollProgress" aria-hidden="true"></div>
+
+  <!-- Navigation Header -->
+  <header class="site-header" id="siteHeader">
+    <div class="container nav-container">
+      <a href="#home" class="brand-logo" aria-label="Rizwan Home">
+        <span class="brand-mark">R</span>
+        <span class="brand-text">Rizwan<span class="brand-dot">.</span></span>
+      </a>
+
+      <nav class="nav-menu" id="navMenu" aria-label="Primary Navigation">
+        <ul class="nav-list">
+          <li><a href="#home" class="nav-link active">Home</a></li>
+          <li><a href="#about" class="nav-link">About</a></li>
+          <li><a href="#skills" class="nav-link">Skills</a></li>
+          <li><a href="#projects" class="nav-link">Projects</a></li>
+          <li><a href="#education" class="nav-link">Education</a></li>
+          <li><a href="#career" class="nav-link">Career</a></li>
+          <li><a href="#contact" class="nav-link">Contact</a></li>
+        </ul>
+        <div class="nav-mobile-cta">
+          <a href="https://github.com/rizwanchines" target="_blank" rel="noopener noreferrer" class="btn btn-outline btn-sm">GitHub</a>
+          <a href="#contact" class="btn btn-primary btn-sm">Get in Touch</a>
+        </div>
+      </nav>
+
+      <div class="nav-actions">
+        <a href="https://github.com/rizwanchines" target="_blank" rel="noopener noreferrer" class="icon-btn" aria-label="GitHub Profile" title="GitHub">
+          <svg viewBox="0 0 24 24" width="20" height="20" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M15 22v-4a4.8 4.8 0 0 0-1-3.5c3 0 6-2 6-5.5.08-1.25-.27-2.48-1-3.5.28-1.15.28-2.35 0-3.5 0 0-1 0-3 1.5-2.64-.5-5.36-.5-8 0C6 2 5 2 5 2c-.3 1.15-.3 2.35 0 3.5A5.403 5.403 0 0 0 4 9c0 3.5 3 5.5 6 5.5-.39.49-.68 1.05-.85 1.65-.17.6-.22 1.23-.15 1.85v4"/><path d="M9 18c-4.51 2-5-2-7-2"/></svg>
+        </a>
+        <a href="https://linkedin.com/in/rizwan-rizwan-428583417" target="_blank" rel="noopener noreferrer" class="icon-btn" aria-label="LinkedIn Profile" title="LinkedIn">
+          <svg viewBox="0 0 24 24" width="20" height="20" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M16 8a6 6 0 0 1 6 6v7h-4v-7a2 2 0 0 0-2-2 2 2 0 0 0-2 2v7h-4v-7a6 6 0 0 1 6-6z"/><rect width="4" height="12" x="2" y="9"/><circle cx="4" cy="4" r="2"/></svg>
+        </a>
+        <a href="#contact" class="btn btn-primary btn-nav">Connect</a>
+
+        <!-- Mobile Menu Toggle -->
+        <button class="menu-toggle" id="menuToggle" aria-label="Toggle navigation menu" aria-expanded="false" aria-controls="navMenu">
+          <span class="hamburger-line"></span>
+          <span class="hamburger-line"></span>
+          <span class="hamburger-line"></span>
+        </button>
+      </div>
+    </div>
+  </header>
+
+  <main>
+    <!-- ==================== HERO SECTION ==================== -->
+    <section id="home" class="hero-section section">
+      <div class="container hero-grid">
+        <div class="hero-content reveal">
+          <div class="status-pill">
+            <span class="status-dot"></span>
+            <span>Available for Opportunities</span>
+          </div>
+
+          <p class="hero-greeting">Hello, I'm <span class="text-highlight">Rizwan Baloch</span></p>
+          <h1 class="hero-title">
+            Full Stack &amp; <span class="gradient-text">AI-Integrated</span> Web Developer
+          </h1>
+
+          <p class="hero-description">
+            I am <strong>Rizwan</strong>, a passionate Full Stack Web Developer and ACCP AI student at Aptech based in <strong>Karachi, Sindh, Pakistan</strong>. I specialize in building modern, responsive and user-friendly websites and web applications using modern web technologies.
+          </p>
+
+          <div class="hero-cta-group">
+            <a href="#projects" class="btn btn-primary">
+              <span>Explore My Projects</span>
+              <svg viewBox="0 0 24 24" width="18" height="18" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M5 12h14"/><path d="m12 5 7 7-7 7"/></svg>
+            </a>
+            <a href="#contact" class="btn btn-outline">
+              <span>Contact Information</span>
+            </a>
+          </div>
+
+          <div class="hero-meta">
+            <div class="meta-item">
+              <svg viewBox="0 0 24 24" width="18" height="18" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M20 10c0 6-8 12-8 12s-8-6-8-12a8 8 0 0 1 16 0Z"/><circle cx="12" cy="10" r="3"/></svg>
+              <span>Karachi, Sindh, Pakistan</span>
+            </div>
+            <div class="meta-divider"></div>
+            <div class="meta-item">
+              <svg viewBox="0 0 24 24" width="18" height="18" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M22 10v6M2 10l10-5 10 5-10 5z"/><path d="M6 12v5c3 3 9 3 12 0v-5"/></svg>
+              <span>ACCP AI – 3-Year Diploma (Aptech)</span>
+            </div>
+          </div>
+        </div>
+
+        <!-- Interactive Developer Profile Terminal Card -->
+        <div class="hero-visual reveal" style="--delay: 0.15s">
+        <!-- <div class="hero-visual reveal" style="--delay: 0.15s">
+          <div class="code-window spotlight-card">
+            <div class="window-header">
+              <div class="window-dots">
+                <span class="dot dot-red"></span>
+                <span class="dot dot-amber"></span>
+                <span class="dot dot-blue"></span>
+              </div>
+              <div class="window-title">rizwan-profile.json</div>
+              <span class="window-badge">UTF-8</span>
+            </div>
+            <div class="window-body">
+              <pre class="code-block"><code><span class="c-punc">{</span>
+  <span class="c-key">"fullName"</span><span class="c-punc">:</span> <span class="c-str">"Rizwan Baloch"</span><span class="c-punc">,</span>
+  <span class="c-key">"professionalName"</span><span class="c-punc">:</span> <span class="c-str">"Rizwan"</span><span class="c-punc">,</span>
+  <span class="c-key">"profession"</span><span class="c-punc">:</span> <span class="c-str">"Full Stack &amp; AI-Integrated Web Developer"</span><span class="c-punc">,</span>
+  <span class="c-key">"location"</span><span class="c-punc">:</span> <span class="c-str">"Karachi, Sindh, Pakistan"</span><span class="c-punc">,</span>
+  <span class="c-key">"status"</span><span class="c-punc">:</span> <span class="c-str">"Available for Opportunities"</span><span class="c-punc">,</span>
+  <span class="c-key">"education"</span><span class="c-punc">:</span> <span class="c-punc">{</span>
+    <span class="c-key">"program"</span><span class="c-punc">:</span> <span class="c-str">"ACCP AI – 3-Year Diploma"</span><span class="c-punc">,</span>
+    <span class="c-key">"institute"</span><span class="c-punc">:</span> <span class="c-str">"Aptech Computer Education"</span>
+  <span class="c-punc">},</span>
+  <span class="c-key">"focusAreas"</span><span class="c-punc">:</span> <span class="c-punc">[</span>
+    <span class="c-str">"Frontend Development"</span><span class="c-punc">,</span>
+    <span class="c-str">"Backend Development"</span><span class="c-punc">,</span>
+    <span class="c-str">"UI/UX Design"</span><span class="c-punc">,</span>
+    <span class="c-str">"AI-Integrated Web Development"</span>
+  <span class="c-punc">],</span>
+  <span class="c-key">"workPreference"</span><span class="c-punc">:</span> <span class="c-punc">[</span><span class="c-str">"Remote"</span><span class="c-punc">,</span> <span class="c-str">"Freelance"</span><span class="c-punc">,</span> <span class="c-str">"Onsite"</span><span class="c-punc">]</span>
+<span class="c-punc">}</span></code></pre>
+            </div>
+            <div class="window-footer">
+              <span class="terminal-prompt">
+                <span class="prompt-arrow">❯</span>
+                <span id="typewriterText">Building modern, responsive digital experiences...</span>
+                <span class="cursor-blink">|</span>
+              </span>
+            </div>
+          </div>
+        </div> -->
+          <img src="my pic.jpeg" alt="my pic" id="mypic">
+      </div>
+      </div>
+    </section>
+
+    <!-- ==================== ABOUT SECTION ==================== -->
+    <section id="about" class="section">
+      <div class="container">
+        <div class="section-header reveal">
+          <span class="section-eyebrow">01 / Profile Overview</span>
+          <h2 class="section-title">Professional <span class="gradient-text">Introduction</span></h2>
+        </div>
+
+        <div class="about-grid">
+          <div class="about-narrative spotlight-card reveal">
+            <div class="card-badge">Who I Am</div>
+            <p class="lead-paragraph">
+              I am <strong>Rizwan</strong>, a passionate Full Stack Web Developer and ACCP AI student at Aptech. I specialize in building modern, responsive and user-friendly websites and web applications using modern web technologies.
+            </p>
+            <p>
+              I have a strong interest in <strong>Frontend Development</strong>, <strong>Backend Development</strong>, <strong>UI/UX Design</strong> and <strong>AI-integrated web solutions</strong>. I enjoy learning new technologies and turning creative ideas into functional digital experiences.
+            </p>
+            <p>
+              My goal is to become a professional Full Stack Developer and work with international clients and technology companies.
+            </p>
+
+            <div class="about-quick-links">
+              <a href="https://linkedin.com/in/rizwan-rizwan-428583417" target="_blank" rel="noopener noreferrer" class="chip-link">
+                <svg viewBox="0 0 24 24" width="16" height="16" fill="none" stroke="currentColor" stroke-width="2"><path d="M16 8a6 6 0 0 1 6 6v7h-4v-7a2 2 0 0 0-2-2 2 2 0 0 0-2 2v7h-4v-7a6 6 0 0 1 6-6z"/><rect width="4" height="12" x="2" y="9"/><circle cx="4" cy="4" r="2"/></svg>
+                <span>LinkedIn</span>
+              </a>
+              <a href="https://github.com/rizwanchines" target="_blank" rel="noopener noreferrer" class="chip-link">
+                <svg viewBox="0 0 24 24" width="16" height="16" fill="none" stroke="currentColor" stroke-width="2"><path d="M15 22v-4a4.8 4.8 0 0 0-1-3.5c3 0 6-2 6-5.5.08-1.25-.27-2.48-1-3.5.28-1.15.28-2.35 0-3.5 0 0-1 0-3 1.5-2.64-.5-5.36-.5-8 0C6 2 5 2 5 2c-.3 1.15-.3 2.35 0 3.5A5.403 5.403 0 0 0 4 9c0 3.5 3 5.5 6 5.5-.39.49-.68 1.05-.85 1.65-.17.6-.22 1.23-.15 1.85v4"/><path d="M9 18c-4.51 2-5-2-7-2"/></svg>
+                <span>GitHub</span>
+              </a>
+              <a href="https://rizwanchines.github.io/mynew_Advance_potfolio_by_react/" target="_blank" rel="noopener noreferrer" class="chip-link">
+                <svg viewBox="0 0 24 24" width="16" height="16" fill="none" stroke="currentColor" stroke-width="2"><circle cx="12" cy="12" r="10"/><path d="M2 12h20"/><path d="M12 2a15.3 15.3 0 0 1 4 10 15.3 15.3 0 0 1-4 10 15.3 15.3 0 0 1-4-10 15.3 15.3 0 0 1 4-10z"/></svg>
+                <span>React Portfolio</span>
+              </a>
+            </div>
+          </div>
+
+          <div class="personal-details-card spotlight-card reveal" style="--delay: 0.1s">
+            <h3 class="card-heading">Personal Details</h3>
+            <dl class="details-list">
+              <div class="detail-row">
+                <dt>Full Name</dt>
+                <dd>Rizwan Baloch</dd>
+              </div>
+              <div class="detail-row">
+                <dt>Professional Name</dt>
+                <dd>Rizwan</dd>
+              </div>
+              <div class="detail-row">
+                <dt>Location</dt>
+                <dd>Karachi, Sindh, Pakistan</dd>
+              </div>
+              <div class="detail-row">
+                <dt>Profession</dt>
+                <dd>Full Stack &amp; AI-Integrated Web Developer</dd>
+              </div>
+              <div class="detail-row">
+                <dt>Current Status</dt>
+                <dd><span class="inline-status">Available for Opportunities</span></dd>
+              </div>
+              <div class="detail-row">
+                <dt>Education</dt>
+                <dd>ACCP AI – 3-Year Diploma</dd>
+              </div>
+              <div class="detail-row">
+                <dt>Institute</dt>
+                <dd>Aptech Computer Education</dd>
+              </div>
+            </dl>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ==================== TECHNICAL SKILLS SECTION ==================== -->
+    <section id="skills" class="section">
+      <div class="container">
+        <div class="section-header reveal">
+          <span class="section-eyebrow">02 / Capabilities</span>
+          <h2 class="section-title">Technical <span class="gradient-text">Skills</span></h2>
+          <p class="section-subtitle">
+            Technologies and competencies across Frontend Development, Backend Development, and AI-Integrated Web Solutions.
+          </p>
+        </div>
+
+        <!-- Skill Filter Tabs -->
+        <div class="skill-tabs reveal" role="tablist" aria-label="Skill Categories">
+          <button class="skill-tab active" data-filter="all" role="tab" aria-selected="true">All Skills (16)</button>
+          <button class="skill-tab" data-filter="frontend" role="tab" aria-selected="false">Frontend Development (8)</button>
+          <button class="skill-tab" data-filter="backend" role="tab" aria-selected="false">Backend Development (2)</button>
+          <button class="skill-tab" data-filter="additional" role="tab" aria-selected="false">Additional Skills (6)</button>
+        </div>
+
+        <!-- Skills Grid -->
+        <div class="skills-grid" id="skillsGrid">
+          <!-- Frontend Development -->
+          <div class="skill-card spotlight-card reveal" data-category="frontend">
+            <div class="skill-icon">
+              <svg viewBox="0 0 24 24" width="24" height="24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="16 18 22 12 16 6"/><polyline points="8 6 2 12 8 18"/></svg>
+            </div>
+            <div class="skill-info">
+              <h3 class="skill-name">HTML5</h3>
+              <span class="skill-category-tag">Frontend Development</span>
+            </div>
+          </div>
+
+          <div class="skill-card spotlight-card reveal" data-category="frontend">
+            <div class="skill-icon">
+              <svg viewBox="0 0 24 24" width="24" height="24" fill="none" stroke="currentColor" stroke-width="2"><path d="M12 2L2 7l10 5 10-5-10-5z"/><path d="M2 17l10 5 10-5"/><path d="M2 12l10 5 10-5"/></svg>
+            </div>
+            <div class="skill-info">
+              <h3 class="skill-name">CSS3</h3>
+              <span class="skill-category-tag">Frontend Development</span>
+            </div>
+          </div>
+
+          <div class="skill-card spotlight-card reveal" data-category="frontend">
+            <div class="skill-icon">
+              <svg viewBox="0 0 24 24" width="24" height="24" fill="none" stroke="currentColor" stroke-width="2"><path d="M10 13a5 5 0 0 0 7.54.54l3-3a5 5 0 0 0-7.07-7.07l-1.72 1.71"/><path d="M14 11a5 5 0 0 0-7.54-.54l-3 3a5 5 0 0 0 7.07 7.07l1.71-1.71"/></svg>
+            </div>
+            <div class="skill-info">
+              <h3 class="skill-name">JavaScript</h3>
+              <span class="skill-category-tag">Frontend Development</span>
+            </div>
+          </div>
+
+          <div class="skill-card spotlight-card reveal" data-category="frontend">
+            <div class="skill-icon">
+              <svg viewBox="0 0 24 24" width="24" height="24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="12" cy="12" r="2.5"/><ellipse cx="12" cy="12" rx="10" ry="4.2" transform="rotate(30 12 12)"/><ellipse cx="12" cy="12" rx="10" ry="4.2" transform="rotate(90 12 12)"/><ellipse cx="12" cy="12" rx="10" ry="4.2" transform="rotate(150 12 12)"/></svg>
+            </div>
+            <div class="skill-info">
+              <h3 class="skill-name">React.js</h3>
+              <span class="skill-category-tag">Frontend Development</span>
+            </div>
+          </div>
+
+          <div class="skill-card spotlight-card reveal" data-category="frontend">
+            <div class="skill-icon">
+              <svg viewBox="0 0 24 24" width="24" height="24" fill="none" stroke="currentColor" stroke-width="2"><rect x="3" y="3" width="18" height="18" rx="4"/><path d="M9 8h4a2 2 0 0 1 0 4H9V8z"/><path d="M9 12h4.5a2 2 0 0 1 0 4H9v-4z"/></svg>
+            </div>
+            <div class="skill-info">
+              <h3 class="skill-name">Bootstrap 5</h3>
+              <span class="skill-category-tag">Frontend Development</span>
+            </div>
+          </div>
+
+          <div class="skill-card spotlight-card reveal" data-category="frontend">
+            <div class="skill-icon">
+              <svg viewBox="0 0 24 24" width="24" height="24" fill="none" stroke="currentColor" stroke-width="2"><path d="M17.7 7.7a2.5 2.5 0 1 1 1.8 4.3H2"/><path d="M9.6 4.6A2 2 0 1 1 11 8H2"/><path d="M12.6 19.4A2 2 0 1 0 14 16H2"/></svg>
+            </div>
+            <div class="skill-info">
+              <h3 class="skill-name">Tailwind CSS</h3>
+              <span class="skill-category-tag">Frontend Development</span>
+            </div>
+          </div>
+
+          <div class="skill-card spotlight-card reveal" data-category="frontend">
+            <div class="skill-icon">
+              <svg viewBox="0 0 24 24" width="24" height="24" fill="none" stroke="currentColor" stroke-width="2"><path d="m18 16 4-4-4-4"/><path d="m6 8-4 4 4 4"/><path d="m14.5 4-5 16"/></svg>
+            </div>
+            <div class="skill-info">
+              <h3 class="skill-name">jQuery</h3>
+              <span class="skill-category-tag">Frontend Development</span>
+            </div>
+          </div>
+
+          <div class="skill-card spotlight-card reveal" data-category="frontend">
+            <div class="skill-icon">
+              <svg viewBox="0 0 24 24" width="24" height="24" fill="none" stroke="currentColor" stroke-width="2"><path d="M8 3H7a2 2 0 0 0-2 2v5a2 2 0 0 1-2 2 2 2 0 0 1 2 2v5c0 1.1.9 2 2 2h1"/><path d="M16 21h1a2 2 0 0 0 2-2v-5c0-1.1.9-2 2-2a2 2 0 0 1-2-2V5a2 2 0 0 0-2-2h-1"/></svg>
+            </div>
+            <div class="skill-info">
+              <h3 class="skill-name">JSON</h3>
+              <span class="skill-category-tag">Frontend Development</span>
+            </div>
+          </div>
+
+          <!-- Backend Development -->
+          <div class="skill-card spotlight-card reveal" data-category="backend">
+            <div class="skill-icon">
+              <svg viewBox="0 0 24 24" width="24" height="24" fill="none" stroke="currentColor" stroke-width="2"><rect x="2" y="2" width="20" height="8" rx="2" ry="2"/><rect x="2" y="14" width="20" height="8" rx="2" ry="2"/><line x1="6" y1="6" x2="6.01" y2="6"/><line x1="6" y1="18" x2="6.01" y2="18"/></svg>
+            </div>
+            <div class="skill-info">
+              <h3 class="skill-name">PHP</h3>
+              <span class="skill-category-tag">Backend Development</span>
+            </div>
+          </div>
+
+          <div class="skill-card spotlight-card reveal" data-category="backend">
+            <div class="skill-icon">
+              <svg viewBox="0 0 24 24" width="24" height="24" fill="none" stroke="currentColor" stroke-width="2"><ellipse cx="12" cy="5" rx="9" ry="3"/><path d="M3 5V19A9 3 0 0 0 21 19V5"/><path d="M3 12A9 3 0 0 0 21 12"/></svg>
+            </div>
+            <div class="skill-info">
+              <h3 class="skill-name">MySQL</h3>
+              <span class="skill-category-tag">Backend Development</span>
+            </div>
+          </div>
+
+          <!-- Additional Skills -->
+          <div class="skill-card spotlight-card reveal" data-category="additional">
+            <div class="skill-icon">
+              <svg viewBox="0 0 24 24" width="24" height="24" fill="none" stroke="currentColor" stroke-width="2"><rect x="2" y="3" width="20" height="14" rx="2"/><line x1="8" y1="21" x2="16" y2="21"/><line x1="12" y1="17" x2="12" y2="21"/></svg>
+            </div>
+            <div class="skill-info">
+              <h3 class="skill-name">Responsive Web Design</h3>
+              <span class="skill-category-tag">Additional Skills</span>
+            </div>
+          </div>
+
+          <div class="skill-card spotlight-card reveal" data-category="additional">
+            <div class="skill-icon">
+              <svg viewBox="0 0 24 24" width="24" height="24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="13.5" cy="6.5" r=".5"/><circle cx="17.5" cy="10.5" r=".5"/><circle cx="8.5" cy="7.5" r=".5"/><circle cx="6.5" cy="12.5" r=".5"/><path d="M12 2C6.5 2 2 6.5 2 12s4.5 10 10 10c.926 0 1.648-.746 1.648-1.688 0-.437-.18-.835-.437-1.125-.29-.289-.438-.652-.438-1.125a1.64 1.64 0 0 1 1.668-1.668h1.996c3.051 0 5.555-2.503 5.555-5.554C21.965 6.012 17.461 2 12 2z"/></svg>
+            </div>
+            <div class="skill-info">
+              <h3 class="skill-name">UI/UX Design</h3>
+              <span class="skill-category-tag">Additional Skills</span>
+            </div>
+          </div>
+
+          <div class="skill-card spotlight-card reveal" data-category="additional">
+            <div class="skill-icon">
+              <svg viewBox="0 0 24 24" width="24" height="24" fill="none" stroke="currentColor" stroke-width="2"><path d="M18 20V6a2 2 0 0 0-2-2H8a2 2 0 0 0-2 2v14"/><path d="M2 20h20"/><path d="M14 12v.01"/></svg>
+            </div>
+            <div class="skill-info">
+              <h3 class="skill-name">REST API Integration</h3>
+              <span class="skill-category-tag">Additional Skills</span>
+            </div>
+          </div>
+
+          <div class="skill-card spotlight-card reveal" data-category="additional">
+            <div class="skill-icon">
+              <svg viewBox="0 0 24 24" width="24" height="24" fill="none" stroke="currentColor" stroke-width="2"><polygon points="13 2 3 14 12 14 11 22 21 10 12 10 13 2"/></svg>
+            </div>
+            <div class="skill-info">
+              <h3 class="skill-name">Website Optimization</h3>
+              <span class="skill-category-tag">Additional Skills</span>
+            </div>
+          </div>
+
+          <div class="skill-card spotlight-card reveal" data-category="additional">
+            <div class="skill-icon">
+              <svg viewBox="0 0 24 24" width="24" height="24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="18" cy="18" r="3"/><circle cx="6" cy="6" r="3"/><path d="M13 6h3a2 2 0 0 1 2 2v7"/><line x1="6" y1="9" x2="6" y2="21"/></svg>
+            </div>
+            <div class="skill-info">
+              <h3 class="skill-name">Git &amp; GitHub</h3>
+              <span class="skill-category-tag">Additional Skills</span>
+            </div>
+          </div>
+
+          <div class="skill-card spotlight-card reveal" data-category="additional">
+            <div class="skill-icon">
+              <svg viewBox="0 0 24 24" width="24" height="24" fill="none" stroke="currentColor" stroke-width="2"><path d="M12 2v4"/><path d="m16.2 7.8 2.9-2.9"/><path d="M18 12h4"/><path d="m16.2 16.2 2.9 2.9"/><path d="M12 18v4"/><path d="m4.9 19.1 2.9-2.9"/><path d="M2 12h4"/><path d="m4.9 4.9 2.9 2.9"/><circle cx="12" cy="12" r="4"/></svg>
+            </div>
+            <div class="skill-info">
+              <h3 class="skill-name">AI-Integrated Web Development</h3>
+              <span class="skill-category-tag">Additional Skills</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ==================== PROJECTS SECTION ==================== -->
+    <section id="projects" class="section">
+      <div class="container">
+        <div class="section-header reveal">
+          <span class="section-eyebrow">03 / Featured Work</span>
+          <h2 class="section-title">My <span class="gradient-text">Projects</span></h2>
+          <p class="section-subtitle">
+            Interactive showcase of web applications built with modern frontend and backend technologies. Click any project card for a closer look.
+          </p>
+        </div>
+
+        <div class="projects-grid">
+          <!-- Project 1: Advanced React Portfolio -->
+          <article class="project-card spotlight-card reveal" tabindex="0" data-project-id="1" aria-label="View details for Advanced React Portfolio">
+            <div class="project-visual visual-portfolio">
+              <div class="visual-browser-bar">
+                <span></span><span></span><span></span>
+                <div class="visual-url">rizwanchines.github.io</div>
+              </div>
+              <div class="visual-canvas">
+                <div class="visual-badge">01</div>
+                <div class="visual-icon-wrap">
+                  <svg viewBox="0 0 24 24" width="40" height="40" fill="none" stroke="currentColor" stroke-width="1.75"><circle cx="12" cy="12" r="2.5"/><ellipse cx="12" cy="12" rx="10" ry="4.2" transform="rotate(30 12 12)"/><ellipse cx="12" cy="12" rx="10" ry="4.2" transform="rotate(90 12 12)"/><ellipse cx="12" cy="12" rx="10" ry="4.2" transform="rotate(150 12 12)"/></svg>
+                </div>
+                <span class="visual-label">React.js Developer Showcase</span>
+              </div>
+            </div>
+
+            <div class="project-body">
+              <div class="project-tech-list">
+                <span class="tech-pill">React.js</span>
+                <span class="tech-pill">JavaScript</span>
+                <span class="tech-pill">CSS</span>
+              </div>
+
+              <h3 class="project-title">Advanced React Portfolio</h3>
+              <p class="project-desc">
+                A modern personal developer portfolio showcasing my skills, projects and professional profile.
+              </p>
+
+              <div class="project-footer">
+                <button type="button" class="project-detail-trigger" data-project-id="1">
+                  <span>Inspect Project</span>
+                  <svg viewBox="0 0 24 24" width="16" height="16" fill="none" stroke="currentColor" stroke-width="2"><path d="M5 12h14"/><path d="m12 5 7 7-7 7"/></svg>
+                </button>
+                <div class="project-links" onclick="event.stopPropagation();">
+                  <a href="https://rizwanchines.github.io/mynew_Advance_potfolio_by_react/" target="_blank" rel="noopener noreferrer" class="project-ext-link" title="Live Portfolio">
+                    <svg viewBox="0 0 24 24" width="18" height="18" fill="none" stroke="currentColor" stroke-width="2"><path d="M18 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6"/><polyline points="15 3 21 3 21 9"/><line x1="10" y1="14" x2="21" y2="3"/></svg>
+                  </a>
+                  <a href="https://github.com/rizwanchines" target="_blank" rel="noopener noreferrer" class="project-ext-link" title="GitHub Profile">
+                    <svg viewBox="0 0 24 24" width="18" height="18" fill="none" stroke="currentColor" stroke-width="2"><path d="M15 22v-4a4.8 4.8 0 0 0-1-3.5c3 0 6-2 6-5.5.08-1.25-.27-2.48-1-3.5.28-1.15.28-2.35 0-3.5 0 0-1 0-3 1.5-2.64-.5-5.36-.5-8 0C6 2 5 2 5 2c-.3 1.15-.3 2.35 0 3.5A5.403 5.403 0 0 0 4 9c0 3.5 3 5.5 6 5.5-.39.49-.68 1.05-.85 1.65-.17.6-.22 1.23-.15 1.85v4"/><path d="M9 18c-4.51 2-5-2-7-2"/></svg>
+                  </a>
+                </div>
+              </div>
+            </div>
+          </article>
+
+          <!-- Project 2: Handicrafts E-Commerce Website -->
+          <article class="project-card spotlight-card reveal" tabindex="0" data-project-id="2" style="--delay: 0.1s" aria-label="View details for Handicrafts E-Commerce Website">
+            <div class="project-visual visual-ecommerce">
+              <div class="visual-browser-bar">
+                <span></span><span></span><span></span>
+                <div class="visual-url">handicrafts-store.app</div>
+              </div>
+              <div class="visual-canvas">
+                <div class="visual-badge">02</div>
+                <div class="visual-icon-wrap">
+                  <svg viewBox="0 0 24 24" width="40" height="40" fill="none" stroke="currentColor" stroke-width="1.75"><circle cx="8" cy="21" r="1"/><circle cx="19" cy="21" r="1"/><path d="M2.05 2.05h2l2.66 12.42a2 2 0 0 0 2 1.58h9.78a2 2 0 0 0 1.95-1.57l1.65-7.43H5.12"/></svg>
+                </div>
+                <span class="visual-label">Full Stack E-Commerce &amp; Stripe</span>
+              </div>
+            </div>
+
+            <div class="project-body">
+       <div class="project-tech-list">
+  <span class="tech-pill">React.js</span>
+  <span class="tech-pill">JavaScript</span>
+  <span class="tech-pill">HTML5</span>
+  <span class="tech-pill">Tailwind CSS</span>
+</div>
+
+              <h3 class="project-title">Handicrafts E-Commerce Website</h3>
+              <p class="project-desc">
+                An e-commerce application designed to showcase and sell handicraft products.
+              </p>
+
+              <div class="project-footer">
+                <button type="button" class="project-detail-trigger" data-project-id="2">
+                  <span>Inspect Project</span>
+                  <svg viewBox="0 0 24 24" width="16" height="16" fill="none" stroke="currentColor" stroke-width="2"><path d="M5 12h14"/><path d="m12 5 7 7-7 7"/></svg>
+                </button>
+                <div class="project-links" onclick="event.stopPropagation();">
+                  <a href="https://github.com/rizwanchines" target="_blank" rel="noopener noreferrer" class="project-ext-link" title="GitHub Profile">
+                    <svg viewBox="0 0 24 24" width="18" height="18" fill="none" stroke="currentColor" stroke-width="2"><path d="M15 22v-4a4.8 4.8 0 0 0-1-3.5c3 0 6-2 6-5.5.08-1.25-.27-2.48-1-3.5.28-1.15.28-2.35 0-3.5 0 0-1 0-3 1.5-2.64-.5-5.36-.5-8 0C6 2 5 2 5 2c-.3 1.15-.3 2.35 0 3.5A5.403 5.403 0 0 0 4 9c0 3.5 3 5.5 6 5.5-.39.49-.68 1.05-.85 1.65-.17.6-.22 1.23-.15 1.85v4"/><path d="M9 18c-4.51 2-5-2-7-2"/></svg>
+                  </a>
+                </div>
+              </div>
+            </div>
+          </article>
+
+          <!-- Project 3: Hospital Management System -->
+          <article class="project-card spotlight-card reveal" tabindex="0" data-project-id="3" style="--delay: 0.2s" aria-label="View details for Hospital Management System">
+            <div class="project-visual visual-hospital">
+              <div class="visual-browser-bar">
+                <span></span><span></span><span></span>
+                <div class="visual-url">healthcare-management.sys</div>
+              </div>
+              <div class="visual-canvas">
+                <div class="visual-badge">03</div>
+                <div class="visual-icon-wrap">
+                  <svg viewBox="0 0 24 24" width="40" height="40" fill="none" stroke="currentColor" stroke-width="1.75"><path d="M12 6v4"/><path d="M14 14h-4"/><path d="M14 18h-4"/><path d="M14 8h-4"/><path d="M18 12h2a2 2 0 0 1 2 2v6a2 2 0 0 1-2 2H4a2 2 0 0 1-2-2v-9a2 2 0 0 1 2-2h2"/><path d="M18 22V4a2 2 0 0 0-2-2H8a2 2 0 0 0-2 2v18"/></svg>
+                </div>
+                <span class="visual-label">.NET Core MVC &amp; React.js System</span>
+              </div>
+            </div>
+
+            <div class="project-body">
+          <div class="project-tech-list">
+  <span class="tech-pill">React.js</span>
+  <span class="tech-pill">JavaScript</span>
+  <span class="tech-pill">HTML5</span>
+  <span class="tech-pill">CSS3</span>
+  <span class="tech-pill">Tailwind CSS</span>
+  <span class="tech-pill">Bootstrap</span>
+  <span class="tech-pill">JSON</span>
+</div>
+
+              <h3 class="project-title">Hospital Management System</h3>
+              <p class="project-desc">
+                A hospital management application designed to organize healthcare-related operations and information.
+              </p>
+
+              <div class="project-footer">
+                <button type="button" class="project-detail-trigger" data-project-id="3">
+                  <span>Inspect Project</span>
+                  <svg viewBox="0 0 24 24" width="16" height="16" fill="none" stroke="currentColor" stroke-width="2"><path d="M5 12h14"/><path d="m12 5 7 7-7 7"/></svg>
+                </button>
+                <div class="project-links" onclick="event.stopPropagation();">
+                  <a href="https://github.com/rizwanchines" target="_blank" rel="noopener noreferrer" class="project-ext-link" title="GitHub Profile">
+                    <svg viewBox="0 0 24 24" width="18" height="18" fill="none" stroke="currentColor" stroke-width="2"><path d="M15 22v-4a4.8 4.8 0 0 0-1-3.5c3 0 6-2 6-5.5.08-1.25-.27-2.48-1-3.5.28-1.15.28-2.35 0-3.5 0 0-1 0-3 1.5-2.64-.5-5.36-.5-8 0C6 2 5 2 5 2c-.3 1.15-.3 2.35 0 3.5A5.403 5.403 0 0 0 4 9c0 3.5 3 5.5 6 5.5-.39.49-.68 1.05-.85 1.65-.17.6-.22 1.23-.15 1.85v4"/><path d="M9 18c-4.51 2-5-2-7-2"/></svg>
+                  </a>
+                </div>
+              </div>
+            </div>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <!-- ==================== EDUCATION & CAREER SECTION ==================== -->
+    <section id="education" class="section">
+      <div class="container">
+        <div class="dual-section-grid">
+          <!-- Education Column -->
+          <div class="reveal">
+            <div class="section-header left-align">
+              <span class="section-eyebrow">04 / Academic Background</span>
+              <h2 class="section-title">My <span class="gradient-text">Education</span></h2>
+            </div>
+
+            <div class="education-card spotlight-card">
+              <div class="edu-icon-box">
+                <svg viewBox="0 0 24 24" width="28" height="28" fill="none" stroke="currentColor" stroke-width="2"><path d="M22 10v6M2 10l10-5 10 5-10 5z"/><path d="M6 12v5c3 3 9 3 12 0v-5"/></svg>
+              </div>
+              <div class="edu-content">
+                <span class="edu-status-badge">In Progress</span>
+                <h3 class="edu-degree">ACCP AI – 3-Year Diploma</h3>
+                <p class="edu-institute">Aptech Computer Education</p>
+                <p class="edu-description">
+                  Currently learning and improving programming, web development and AI development skills.
+                </p>
+              </div>
+            </div>
+          </div>
+
+               <div class="education-card spotlight-card">
+              <div class="edu-icon-box">
+                <svg viewBox="0 0 24 24" width="28" height="28" fill="none" stroke="currentColor" stroke-width="2"><path d="M22 10v6M2 10l10-5 10 5-10 5z"/><path d="M6 12v5c3 3 9 3 12 0v-5"/></svg>
+              </div>
+              <div class="edu-content">
+                <span class="edu-status-badge">In Progress</span>
+                <h3 class="edu-degree">Government Degree College Panjgur</h3>
+                <p class="edu-institute">Intermediate – Class 12 (Pre-Medical)</p>
+                <p class="edu-description">
+                 Currently pursuing Intermediate education in the Pre-Medical group, focusing on Biology, Chemistry, and Physics.                </p>
+              </div>
+            </div>
+          </div>
+
+          <!-- Career Information Column -->
+          <div id="career" class="reveal" style="--delay: 0.1s">
+            <div class="section-header left-align">
+              <span class="section-eyebrow">05 / Objectives &amp; Preferences</span>
+              <h2 class="section-title">Career <span class="gradient-text">Information</span></h2>
+            </div>
+
+            <div class="career-grid">
+              <div class="career-item spotlight-card">
+                <span class="career-label">Career Goal</span>
+                <strong class="career-value">Full Stack Web Developer</strong>
+              </div>
+
+              <div class="career-item spotlight-card">
+                <span class="career-label">Interested In</span>
+                <strong class="career-value">Frontend Development, Backend Development, AI Development</strong>
+              </div>
+
+              <div class="career-item spotlight-card">
+                <span class="career-label">Work Preference</span>
+                <strong class="career-value">Remote, Freelance and Onsite</strong>
+              </div>
+
+              <div class="career-item spotlight-card">
+                <span class="career-label">Availability</span>
+                <strong class="career-value text-accent">Open to Job and Freelance Opportunities</strong>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ==================== CONTACT & PROFESSIONAL LINKS SECTION ==================== -->
+    <section id="contact" class="section">
+      <div class="container">
+        <div class="section-header reveal">
+          <span class="section-eyebrow">06 / Connect</span>
+          <h2 class="section-title">Contact &amp; <span class="gradient-text">Professional Links</span></h2>
+          <p class="section-subtitle">
+            Open to Remote, Freelance, and Onsite opportunities. Reach out through my professional profiles or contact details below.
+          </p>
+        </div>
+
+        <div class="contact-layout">
+          <!-- Contact Details & Links -->
+          <div class="contact-info-column reveal">
+            <div class="contact-card spotlight-card">
+              <h3 class="card-heading">Contact Information</h3>
+              <ul class="contact-details-list">
+                <li>
+                  <div class="contact-icon">
+                    <svg viewBox="0 0 24 24" width="20" height="20" fill="none" stroke="currentColor" stroke-width="2"><path d="M20 10c0 6-8 12-8 12s-8-6-8-12a8 8 0 0 1 16 0Z"/><circle cx="12" cy="10" r="3"/></svg>
+                  </div>
+                  <div>
+                    <span class="contact-label">Location</span>
+                    <p class="contact-value">Karachi, Sindh, Pakistan</p>
+                  </div>
+                </li>
+
+                <li>
+                  <div class="contact-icon">
+                    <svg viewBox="0 0 24 24" width="20" height="20" fill="none" stroke="currentColor" stroke-width="2"><rect width="20" height="16" x="2" y="4" rx="2"/><path d="m22 7-8.97 5.7a1.94 1.94 0 0 1-2.06 0L2 7"/></svg>
+                  </div>
+                  <div>
+                    <span class="contact-label">Email</span>
+                    <p class="contact-value">
+                      <a href="mailto:rrizochines7@gmail.com" class="contact-link">rrizochines7@gmail.com</a>
+                    </p>
+                  </div>
+                </li>
+
+                <li>
+                  <div class="contact-icon">
+                    <svg viewBox="0 0 24 24" width="20" height="20" fill="none" stroke="currentColor" stroke-width="2"><path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72 12.84 12.84 0 0 0 .7 2.81 2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45 12.84 12.84 0 0 0 2.81.7A2 2 0 0 1 22 16.92z"/></svg>
+                  </div>
+                  <div>
+                    <span class="contact-label">Phone / WhatsApp</span>
+                    <p class="contact-value">
+                      <a href="tel:03323005903" class="contact-link">03323005903</a>
+                      <span class="contact-sep">&bull;</span>
+                      <a href="https://wa.me/923323005903" target="_blank" rel="noopener noreferrer" class="contact-link text-accent">Chat on WhatsApp</a>
+                    </p>
+                  </div>
+                </li>
+              </ul>
+            </div>
+
+            <!-- Professional Profiles Card -->
+            <div class="contact-card spotlight-card">
+              <h3 class="card-heading">Professional Links</h3>
+              <div class="social-links-stack">
+                <a href="https://linkedin.com/in/rizwan-rizwan-428583417" target="_blank" rel="noopener noreferrer" class="social-row-link">
+                  <div class="social-row-left">
+                    <span class="social-icon">
+                      <svg viewBox="0 0 24 24" width="20" height="20" fill="none" stroke="currentColor" stroke-width="2"><path d="M16 8a6 6 0 0 1 6 6v7h-4v-7a2 2 0 0 0-2-2 2 2 0 0 0-2 2v7h-4v-7a6 6 0 0 1 6-6z"/><rect width="4" height="12" x="2" y="9"/><circle cx="4" cy="4" r="2"/></svg>
+                    </span>
+                    <div>
+                      <strong>LinkedIn</strong>
+                      <span>linkedin.com/in/rizwan-rizwan-428583417</span>
+                    </div>
+                  </div>
+                  <svg viewBox="0 0 24 24" width="18" height="18" fill="none" stroke="currentColor" stroke-width="2"><path d="M7 17 17 7"/><path d="M7 7h10v10"/></svg>
+                </a>
+
+                <a href="https://github.com/rizwanchines" target="_blank" rel="noopener noreferrer" class="social-row-link">
+                  <div class="social-row-left">
+                    <span class="social-icon">
+                      <svg viewBox="0 0 24 24" width="20" height="20" fill="none" stroke="currentColor" stroke-width="2"><path d="M15 22v-4a4.8 4.8 0 0 0-1-3.5c3 0 6-2 6-5.5.08-1.25-.27-2.48-1-3.5.28-1.15.28-2.35 0-3.5 0 0-1 0-3 1.5-2.64-.5-5.36-.5-8 0C6 2 5 2 5 2c-.3 1.15-.3 2.35 0 3.5A5.403 5.403 0 0 0 4 9c0 3.5 3 5.5 6 5.5-.39.49-.68 1.05-.85 1.65-.17.6-.22 1.23-.15 1.85v4"/><path d="M9 18c-4.51 2-5-2-7-2"/></svg>
+                    </span>
+                    <div>
+                      <strong>GitHub</strong>
+                      <span>github.com/rizwanchines</span>
+                    </div>
+                  </div>
+                  <svg viewBox="0 0 24 24" width="18" height="18" fill="none" stroke="currentColor" stroke-width="2"><path d="M7 17 17 7"/><path d="M7 7h10v10"/></svg>
+                </a>
+
+                <a href="https://rizwanchines.github.io/mynew_Advance_potfolio_by_react/" target="_blank" rel="noopener noreferrer" class="social-row-link">
+                  <div class="social-row-left">
+                    <span class="social-icon">
+                      <svg viewBox="0 0 24 24" width="20" height="20" fill="none" stroke="currentColor" stroke-width="2"><circle cx="12" cy="12" r="10"/><path d="M2 12h20"/><path d="M12 2a15.3 15.3 0 0 1 4 10 15.3 15.3 0 0 1-4 10 15.3 15.3 0 0 1-4-10 15.3 15.3 0 0 1 4-10z"/></svg>
+                    </span>
+                    <div>
+                      <strong>Portfolio</strong>
+                      <span>rizwanchines.github.io/mynew_Advance_potfolio_by_react/</span>
+                    </div>
+                  </div>
+                  <svg viewBox="0 0 24 24" width="18" height="18" fill="none" stroke="currentColor" stroke-width="2"><path d="M7 17 17 7"/><path d="M7 7h10v10"/></svg>
+                </a>
+              </div>
+            </div>
+          </div>
+
+          <!-- Interactive Direct Message Card -->
+          <div class="contact-form-column reveal" style="--delay: 0.1s">
+            <form class="contact-form spotlight-card" id="contactForm" action="https://formsubmit.co/rrizochines7@gmail.com" method="POST" novalidate>
+              <input type="hidden" name="_subject" value="New Portfolio Message for Rizwan!" />
+              <input type="hidden" name="_template" value="table" />
+              <input type="hidden" name="_captcha" value="false" />
+
+              <h3 class="card-heading">Send a Direct Message</h3>
+              <p class="form-helper">
+                Send a message directly to my Gmail (<strong>rrizochines7@gmail.com</strong>) or WhatsApp (<strong>03323005903</strong>).
+              </p>
+
+              <div class="form-group">
+                <label for="senderName">Your Name</label>
+                <input type="text" id="senderName" name="name" placeholder="Enter your name" required />
+              </div>
+
+              <div class="form-group">
+                <label for="senderEmail">Your Email</label>
+                <input type="email" id="senderEmail" name="email" placeholder="Enter your email address" required />
+              </div>
+
+              <div class="form-group">
+                <label for="workType">Opportunity Type</label>
+                <select id="workType" name="opportunity_type">
+                  <option value="Full Stack Role">Full Stack Web Development</option>
+                  <option value="Frontend Role">Frontend Development</option>
+                  <option value="Backend Role">Backend Development</option>
+                  <option value="AI-Integrated Project">AI-Integrated Web Solution</option>
+                  <option value="Freelance / Remote Project">Freelance / Remote Opportunity</option>
+                </select>
+              </div>
+
+              <div class="form-group">
+                <label for="senderMessage">Message</label>
+                <textarea id="senderMessage" name="message" rows="4" placeholder="Write your message for Rizwan..." required></textarea>
+              </div>
+
+              <div class="form-button-group">
+                <button type="submit" class="btn btn-primary btn-full" id="submitEmailBtn">
+                  <span id="submitBtnText">Send Directly to Email</span>
+                  <svg viewBox="0 0 24 24" width="18" height="18" fill="none" stroke="currentColor" stroke-width="2"><line x1="22" y1="2" x2="11" y2="13"/><polygon points="22 2 15 22 11 13 2 9 22 2"/></svg>
+                </button>
+
+                <button type="button" class="btn btn-outline btn-full" id="sendWhatsappBtn">
+                  <span>Send via WhatsApp</span>
+                  <svg viewBox="0 0 24 24" width="18" height="18" fill="none" stroke="currentColor" stroke-width="2"><path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72 12.84 12.84 0 0 0 .7 2.81 2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45 12.84 12.84 0 0 0 2.81.7A2 2 0 0 1 22 16.92z"/></svg>
+                </button>
+              </div>
+
+              <div class="form-status" id="formStatus" role="status" aria-live="polite"></div>
+            </form>
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <!-- ==================== PROJECT MODAL ==================== -->
+  <div class="modal-backdrop" id="projectModal" aria-hidden="true" role="dialog" aria-modal="true" aria-labelledby="modalTitle">
+    <div class="modal-content spotlight-card">
+      <button type="button" class="modal-close" id="modalClose" aria-label="Close modal">
+        <svg viewBox="0 0 24 24" width="20" height="20" fill="none" stroke="currentColor" stroke-width="2"><path d="M18 6 6 18"/><path d="m6 6 12 12"/></svg>
+      </button>
+      <div class="modal-body" id="modalBody">
+        <!-- Populated dynamically via script.js -->
+      </div>
+    </div>
+  </div>
+
+  <!-- ==================== FOOTER ==================== -->
+  <footer class="site-footer">
+    <div class="container footer-inner">
+      <div class="footer-brand">
+        <a href="#home" class="brand-logo">
+          <span class="brand-mark">R</span>
+          <span class="brand-text">Rizwan Baloch<span class="brand-dot">.</span></span>
+        </a>
+        <p class="footer-tagline">
+          Full Stack &amp; AI-Integrated Web Developer &bull; Karachi, Sindh, Pakistan
+        </p>
+      </div>
+
+      <div class="footer-links">
+        <a href="mailto:rrizochines7@gmail.com">rrizochines7@gmail.com</a>
+        <a href="tel:03323005903">03323005903</a>
+        <a href="https://linkedin.com/in/rizwan-rizwan-428583417" target="_blank" rel="noopener noreferrer">LinkedIn</a>
+        <a href="https://github.com/rizwanchines" target="_blank" rel="noopener noreferrer">GitHub</a>
+        <a href="https://rizwanchines.github.io/mynew_Advance_potfolio_by_react/" target="_blank" rel="noopener noreferrer">React Portfolio</a>
+      </div>
+    </div>
+  </footer>
+
+  <!-- JavaScript -->
+  <script src="script.js"></script>
+</body>
+</html>
+
